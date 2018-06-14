@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="app__form">
+		<div class="form__head">Application Form</div>
+			<form action="#">
+				<div class="form__container">
+					<div class="form__wrap">
+						<div class="form__label">
+							<label for="name">Name:</label>
+						</div>
+						<input type="text" class="form__field" id="name" placeholder="Enter name" name="name">
+					</div>
+					<div class="form__wrap">
+						<div class="form__label">
+							<label for="addres">Addres:</label>
+						</div>
+						<input type="text" class="form__field" id="addres" placeholder="Enter addres" name="addres">
+					</div>
+					<div class="form__wrap">
+						<div class="form__label">
+							<label for="number">Age:</label>
+						</div>
+						<input type="number" min="1" max="99" class="form__field" id="number" placeholder="Enter age">
+					</div>
+					<div class="form__wrap">
+						<div class="form__label">
+							<label for="gender">Gender:</label>
+						</div>
+						<select name="gender" id="gender" class="form__field form__select">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+						</select>
+					</div>
+					<div class="form__wrap">
+						<div class="form__label">
+							<label>Stream:</label>
+						</div>
+						<div class="form__field__check">
+							<input type="radio" id="stream__se" name="stream" value="se">
+							<label for="stream__se">SE</label>
+							<input type="radio" id="stream__isbm" name="stream" value="isbm">
+							<label for="stream__isbm">ISBM</label>
+						</div>
+					</div>
+					<div class="form__wrap">
+						<div class="form__label">
+							<label>Modules:</label>
+						</div>
+						<div class="form__field__check">
+							<input type="checkbox" id="mod1" name="subscribe" value="m1">
+							<label for="mod1">M1</label>
+							<input type="checkbox" id="mod2" name="subscribe" value="m2">
+							<label for="mod2">M2</label>
+							<input type="checkbox" id="mod3" name="subscribe" value="m3">
+							<label for="mod3">M3</label>
+							<input type="checkbox" id="mod4" name="subscribe" value="m4">
+							<label for="mod4">M4</label>
+							<input type="checkbox" id="mod5" name="subscribe" value="m5">
+							<label for="mod5">M5</label>
+						</div>
+					</div>
+					<div class="form__wrap">
+						<div class="button__wrap">
+							<input type="submit" class="form__button button__del" value="Clear Fields">
+							<input type="submit" class="form__button button__add" value="Add Student">
+						</div>
+					</div>
+   				<table>
+   					<tbody>
+	   					<tr class="table__head">
+		   					<td>Name</td>
+		   					<td>Addres</td>
+		   					<td>Age</td>
+		   					<td>Gender</td>
+		   					<td>Stream</td>
+	   					</tr>
+	   					<tr>
+	   						<td>Sample name 1</td>
+	   						<td>Addres 1</td>
+	   						<td>Age 1</td>
+	   						<td>Gender 1</td>
+	   						<td>Stream 1</td>
+	   					</tr>
+	   					<tr>
+	   						<td>Sample name 2</td>
+	   						<td>Addres 2</td>
+	   						<td>Age 2</td>
+	   						<td>Gender 2</td>
+	   						<td>Stream 2</td>
+	   					</tr>
+	   				</tbody>
+   				</table>
+				</div>
+		</form>
+	</div>
+</body>
+</html>
